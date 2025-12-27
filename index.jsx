@@ -150,7 +150,7 @@ io.on("connection", async(socket) => {
 /* -------------------- DATABASE + SERVER START -------------------- */
 
 mongoose.connect(
-  "mongodb+srv://User:aso09876@cluster.jiqtsol.mongodb.net/chat?appName=Cluster",
+  ,
   {
     serverSelectionTimeoutMS: 5000
   }
@@ -175,3 +175,4 @@ mongoose.connect(
     console.error("MongoDB connection failed:", err);
   }
 );
+
